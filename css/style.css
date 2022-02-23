@@ -1,0 +1,314 @@
+/*body{
+	margin: 0 ;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+/*header start*/
+/*header{
+	padding: 20px 0; 
+	/*border: 1px solid blue;
+
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 70%;
+	/*border: 1px solid black;
+
+}
+.logo{
+	margin-top: 13px;
+	width: 11%;
+	/*border: 1px solid black;
+	float: left;
+
+}*/
+/*common Start*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #999999;
+  background-color: #f6f9f9;
+}
+
+/*common End*/
+
+/*Header Start*/
+
+header {
+  padding: 15px 0;
+}
+.container {
+  width: 70%;
+
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo {
+	margin-top: 0px;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+
+}
+
+.logo a img {
+  width: 13%;
+  float: left;
+}
+.logo h1{
+	width: 70%;
+	float: left;
+	margin:0 10px;
+	text-transform: uppercase;
+	color: black;
+}
+
+
+
+/*Header End*/
+
+/*Maino Image Start*/
+
+.main_image {
+  background-image: url(../images/bc.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  margin: 0;
+  padding: 0 50px;
+  margin-top: 180px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 120px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 2px solid #15a4fa;
+}
+
+.content p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.content button {
+  margin-top: 60px;
+  margin-bottom: 180px;
+  padding: 15px 40px;
+  background: transparent;
+  border: none;
+  border: 1px solid #15a4fa;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+/*Maino Image End*/
+
+/*Paragraph Start*/
+
+.paragraph {
+  margin: 70px auto;
+  text-align: center;
+}
+.p_content h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  color: #2d3950 ;
+}
+
+.p_content p {
+	font-size: 20px;
+  line-height: 28px;
+  word-spacing: 1px;
+  letter-spacing: .1px;
+}
+
+/*Paragraph End*/
+
+
+/*Features Start*/
+
+.features {
+  background-color: #fff;
+}
+
+.f_text {
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+.f_content {
+  float: left;
+  margin: 80px 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.f_content:first-child {
+  margin-left: 0;
+}
+.f_content:last-child {
+  margin-right: 0;
+}
+
+
+
+.f_icon {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: rgb(72, 186, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(72, 186, 255, 1) 50%,
+    rgba(95, 195, 255, 1) 50%
+  );
+}
+.mobile img {
+  margin-top: 30px; 
+}
+.send img {
+  margin-top: 30px; 
+}
+.promote img {
+  margin-top: 30px; 
+}
+
+.icon_content h2 {
+  font-size: 22px;
+  color: #2d3950;
+}
+.icon_content p {
+  font-size: 16px;
+}
+
+/*Features End*/
+
+/*Showcase Start*/
+.s_text {
+	margin: 10px 0px 70px;
+}
+
+.s_text h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  color: #2d3950 ;
+  word-spacing: 5px;
+}
+
+.s_text p {
+  font-size: 16px;
+
+}
+
+.images {
+  margin: auto;
+}
+.image_gallery {  
+  overflow: hidden;
+}
+
+.image_gallery img {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+/*Showcase Start*/
+
+/*contact start*/
+.contact-us{
+  background-image: url("../images/road.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+}
+.text-white {
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+.text-gray {
+  color: #999999;
+  text-align: center;
+}
+.contact-form {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: transparent;
+}
+
+.contact-input,
+.contact-message {
+  width: 100%;
+  color: #999999;
+  padding: 20px 15px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+
+.contact-btn {
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  padding: 10px 45px;
+  transition: 0.3s;
+  float: right;
+}
+
+.contact-list{
+	overflow: hidden;
+}
+li{
+	list-style: none;
+	text-decoration: none;
+}
+.contact-item-left{
+	width: 30%;
+	float :left: ;
+}
+.contact-item-right{
+	width: 30%;
+	float: right;
+}
+
+/*footer*/
+.footer-section{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.footer-text{
+	width: 17%;
+	float: left;
+}
+
+.social{
+	width: 20%;
+	float : right;
+}
